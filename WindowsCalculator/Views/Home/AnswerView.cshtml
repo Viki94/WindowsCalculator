@@ -1,0 +1,5 @@
+﻿@model WindowsCalculator.Models.CalculatorModel
+<div>
+    @Html.TextBoxFor(model => model.CalculationHistory, new {  @readonly = "readonly", @style = "text-align:right;" })
+    @Html.TextBoxFor(model => model.OnScreenDisplay, new { @readonly = "readonly", @style = "text-align:right;" })
+</div>
